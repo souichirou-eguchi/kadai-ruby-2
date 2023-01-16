@@ -26,7 +26,7 @@ def fizzbuzz(checkNum)
   
   case true
   when checkNum % intFizz == 0 && checkNum % intBuzz == 0 then
-    returnString = 'FizzBazz'
+    returnString = 'FizzBuzz'
   when checkNum % intFizz == 0 then
     returnString = 'Fizz'
   when checkNum % intBuzz == 0 then
